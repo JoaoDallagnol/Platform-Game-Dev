@@ -3534,16 +3534,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222128510}
   m_CullTransparentMesh: 1
---- !u!58 &1459856743 stripped
-CircleCollider2D:
-  m_CorrespondingSourceObject: {fileID: 907299077459415412, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-  m_PrefabInstance: {fileID: 6195212886488979823}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1459856746 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 2588225053982161314, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-  m_PrefabInstance: {fileID: 6195212886488979823}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1572103073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4169,11 +4159,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1273408388429623061, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.05
+      value: 3.056
       objectReference: {fileID: 0}
     - target: {fileID: 1273408388429623061, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.751
+      value: -2.749
       objectReference: {fileID: 0}
     - target: {fileID: 1273408388429623061, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4207,26 +4197,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1432130826270365913, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.019
-      objectReference: {fileID: 0}
-    - target: {fileID: 1432130826270365913, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 5384075255396580526, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7891293110466471741, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-      propertyPath: boxCollider2D
-      value: 
-      objectReference: {fileID: 1459856746}
-    - target: {fileID: 7891293110466471741, guid: 3d07a34e7efe6a4439e57b225ad43403, type: 3}
-      propertyPath: circleCollider2D
-      value: 
-      objectReference: {fileID: 1459856743}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4242,11 +4212,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3592995495700213840, guid: 36c70a568a40fbf488c6b38785043442, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.61
+      value: -2.51
       objectReference: {fileID: 0}
     - target: {fileID: 3592995495700213840, guid: 36c70a568a40fbf488c6b38785043442, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.57
+      value: -2.59
       objectReference: {fileID: 0}
     - target: {fileID: 3592995495700213840, guid: 36c70a568a40fbf488c6b38785043442, type: 3}
       propertyPath: m_LocalPosition.z
