@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
     private bool isJumping;
     private bool doubleJump;
     private Animator anim;
+    bool isBlowing;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -39,7 +40,7 @@ public class Player : MonoBehaviour {
     }
 
     void Jump() {
-        if (Input.GetButtonDown("Jump")) {
+        if (Input.GetButtonDown("Jump") && !isBlowing) {
             if (!isJumping) {
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
@@ -73,6 +74,18 @@ public class Player : MonoBehaviour {
     void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.layer == 8) {
             isJumping = true;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D collider) {
+        if (collider.gameObject.layer == 11) {
+            isBlowing = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider) {
+        if (collider.gameObject.layer == 11) {
+            isBlowing = false;
         }
     }
 }
